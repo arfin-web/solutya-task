@@ -1,5 +1,6 @@
 import React from 'react'
 import ScheduleData from '../Database/ScheduleData'
+import ScheduleImg from '../images/schedule.png'
 
 function Schedule() {
     return (
@@ -26,7 +27,7 @@ function Schedule() {
                         }
                     </div>
                     <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-                        <img alt="feature" className="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500" />
+                        <img alt="feature" className="object-cover object-center h-full w-full" src={ScheduleImg} />
                     </div>
                 </div>
             </section>

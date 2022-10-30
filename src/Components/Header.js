@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 function Header() {
     return (
         <>
-            <header className="text-gray-600 body-font bg-gray-800">
+            <header className="text-gray-600 body-font bg-gray-800 desktop-header">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                         <img alt="feature" className="object-cover object-center" src={logo} />
